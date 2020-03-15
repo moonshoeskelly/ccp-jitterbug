@@ -1,5 +1,64 @@
+/*******************PAGE RESET RULES*********************/
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+	display:block;
+}
+/********************************************************/
+
+/************************HEADER**************************/
+
+.desktop-menu {
+	display: none;
+}
+
+/********************************************************/
+
+
+
+/*******************HAMBURGER MENU***********************/
+.hamburger{
+	background:none;
+	position:absolute;
+	top:0;
+	right:0;
+	line-height:35px;
+	padding:5px 15px 0px 15px;
+	color:#000;
+	border:0;
+	font-size:1.4em;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	z-index:10000000000000;
+}
+
+.cross{
+	background:none;
+	position:absolute;
+	top:0px;
+	right:0;
+	padding:7px 15px 0px 15px;
+	color:#000;
+	border:0;
+	font-size:3em;
+	line-height:65px;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size: 1em; width:100%; background:#f1f1f1; text-align:center; top: 3.4%;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#000;}
+.menu ul li a:hover {  color: #0F52BA; text-decoration:none;}
+.menu a{text-decoration:none; color:#A9A9A9;}
+.menu a:hover{text-decoration:none; color:#A9A9A9;}
+
+/********************************************************/
