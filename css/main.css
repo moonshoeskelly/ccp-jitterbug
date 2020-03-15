@@ -11,6 +11,10 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 /********************************************************/
 
 /************************HEADER**************************/
+header {
+	background: royalblue;
+	height: 50px;
+}
 
 .desktop-menu {
 	display: none;
@@ -28,7 +32,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 	right:0;
 	line-height:35px;
 	padding:5px 15px 0px 15px;
-	color:#000;
+	color:#fff;
 	border:0;
 	font-size:1.4em;
 	font-weight:bold;
