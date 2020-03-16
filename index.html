@@ -51,7 +51,7 @@
 
     </header>
 
-    <main>
+    <main class="container">
 
         <section class="main-categories">
             <div class="main-logo">
@@ -59,20 +59,20 @@
                 <h1>Easy to use and low-VOC furniture paints</h1>
             </div>
 
-            <div class="main-categories-grid">
-                <div>
+            <div class="main-categories-grid row">
+                <div class="col-sm">
                     <h3>Browse the shop</h3>
                 </div>
 
-                <div>
+                <div class="col-sm">
                     <h3>View colors</h3>
                 </div>
 
-                <div>
+                <div class="col-sm">
                     <h3>Find a retailer</h3>
                 </div>
 
-                <div>
+                <div class="col-sm">
                     <h3>Watch tutorials</h3>
                 </div>
             </div>
@@ -84,8 +84,8 @@
 
         <section class="main-products">
             <h2>Shop Our Products</h2>
-            <div class="main-products-grid">
-                <div>
+            <div class="main-products-grid row">
+                <div class="col-sm">
                     <!--img src="paint"-->
                     <h3>Paint</h3>
                     <p>60 colors of eco-friendly</p>
@@ -93,7 +93,7 @@
                     <p>of 5-star reviews</p>
                 </div>
 
-                <div>
+                <div class="col-sm">
                     <!--img src="wax"-->
                     <h3>Wax & top coats</h3>
                     <p>100% nautral furniture waxes</p>
@@ -101,15 +101,17 @@
                     <p>other natural waxes and oils</p>
                 </div>
 
-                <div>
+                <div class="col-sm">
                     <!--img src="can"-->
                     <h3>Specialty finishes</h3>
                     <p>From crackle and glitter to</p>
                     <p>antiquing dust and metallics, find</p>
                     <p>finishes for whatever stlye suits you</p>
                 </div>
+            </div>
 
-                <div>
+            <div class="main-products-grid row">
+                <div class="col-sm">
                     <!--img src="brush"-->
                     <h3>Brushes</h3>
                     <p>Tested and designed to work with all</p>
@@ -117,7 +119,7 @@
                     <p>made with 100% synthetic bristles</p>
                 </div>
 
-                <div>
+                <div class="col-sm">
                     <!--img src="box"-->
                     <h3>DIY kits</h3>
                     <p>The perfect place to start your DIY</p>
@@ -125,7 +127,7 @@
                     <p>your decor style</p>
                 </div>
 
-                <div>
+                <div class="col-sm">
                     <!--img src="tag"-->
                     <h3>Special offers</h3>
                     <p>The best deals are always online!</p>
@@ -151,59 +153,79 @@
 
         <section class="main-social">
             <h2>Check us out on social</h2>
-            <div class="main-social-icons">
+            <div class="main-social-icons row">
                 <!--pinterest icon-->
                 <!--Instagram icon-->
                 <!--Twitter icon-->
                 <!--Facebook icon-->
                 <!--Website icon-->
             </div>
-            <div class="main-social-carousel">
+            <div class="main-social-carousel row">
                 <!--image carousel-->
             </div>
         </section>
 
         <section class="main-testimonials">
             <h2>Testimonials</h2>
-            <div class="main-testimonials-carousel">
-                <!--Reviewer image/review carousel-->
-                <p>I've gotten a ton of color cards recently from different paint brands, and this is by far the most accurate representation of the colors offered.</p>
-                <p>-Elizabeth B.</p>
+            <div class="main-testimonials-carousel row">
+                <div class="col-sm">
+                    <!--Reviewer image/review carousel-->
+                    <p>I've gotten a ton of color cards recently from different paint brands, and this is by far the most accurate representation of the colors offered.</p>
+                    <p>-Elizabeth B.</p>
+                </div>
+
+                <div class="col-sm">
+                    <!--Reviewer image/review carousel-->
+                    <p>I refurbished a banged up dresser. It looks better than the original! I am so pleased with the end result. The product applies very well.</p>
+                    <p>-Vanessa T.</p>
+                </div>
+
+                <div class="col-sm">
+                    <!--Reviewer image/review carousel-->
+                    <p>Colour, texture and quality was exactly what I hoped for, and much more environmentally friendly than anything I could have bought at home. </p>
+                    <p>-Trevor R.</p>
+                </div>
             </div>
         </section>
 
     </main>
 
     <footer>
-        <section class="footer-grid">
-            <img src="images/ccp-v2.png" alt="Country Chic Logo" title="Country Chic Logo" />
-            <h2>Shop and Learn</h2>
-            <ul>
-                <li><a href="">Shop Online</a></li>
-                <li><a href="">FAQs</a></li>
-                <li><a href="">Shipping Information</a></li>
-                <li><a href="">Tutorials</a></li>
-                <li><a href="">Inspiration</a></li>
-                <li><a href="">Paint Colors</a></li>
-                <li><a href="">Sample Finishes</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Store Locator</a></li>
-            </ul>
-            <h2>About Us</h2>
-            <ul>
-                <li><a href="">Our Story</a></li>
-                <li><a href="">Meet Our Team</a></li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Wholesale Inquiries</a></li>
-                <li><a href="">Referral Program</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Terms of Service</a></li>
-                <li><a href="">VOC Testing</a></li>
-                <li><a href="">MSDS</a></li>
-            </ul>
+        <section class="footer-grid row">
+            <div class="col-md-3">
+                <img class="img-fluid" src="images/ccp-v2.png" alt="Country Chic Logo" title="Country Chic Logo" />
+            </div>
+            <div class="col-md-5">
+                <h2>Shop and Learn</h2>
+                <ul class="list-unstyled">
+                    <li><a href="">Shop Online</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Shipping Information</a></li>
+                    <li><a href="">Tutorials</a></li>
+                    <li><a href="">Inspiration</a></li>
+                    <li><a href="">Paint Colors</a></li>
+                    <li><a href="">Sample Finishes</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Store Locator</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>About Us</h2>
+                <ul class="list-unstyled">
+                    <li><a href="">Our Story</a></li>
+                    <li><a href="">Meet Our Team</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Wholesale Inquiries</a></li>
+                    <li><a href="">Referral Program</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">VOC Testing</a></li>
+                    <li><a href="">MSDS</a></li>
+                </ul>
+            </div>
         </section>
         <section class="footer-social">
-            <div class="footer-social-icons">
+            <div class="footer-social-icons text-center">
                 <!--pinterest icon-->
                 <!--Instagram icon-->
                 <!--Twitter icon-->
