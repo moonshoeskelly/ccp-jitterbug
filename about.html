@@ -12,51 +12,151 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!--[if lt IE 9]>
-	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
     <header>
         <div>
-            <div>
-                <!--img src="FLOWER"-->
-            </div>
-            <div>
-                <button class="hamburger">&#9776;</button>
-                <button class="cross">&#735;</button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+              <a class="navbar-brand" href="#">Flower Here</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-                <nav class="menu">
-				<ul>
-          			<li><a href="about.html">About Us</a></li>
-					<li><a href="interior1.html">Interior 1</a></li>
-					<li><a href="interior2.html">Interior 2</a></li>
-				</ul>
-			</nav>
-
-			<nav class="desktop-menu">
-				<ul>
-                    <li><a href="about.html">About Us</a></li>
-					<li><a href="interior1.html">Interior 1</a></li>
-					<li><a href="interior2.html">Interior 2</a></li>
-				</ul>
-			</nav>
-            </div>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                </form>
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">Our Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Colors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop Online</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tutorials</a>
+                  </li>
+                </ul>
+                <a class="btn btn-light btn-sm" href="">Shop Now</a>
+              </div>
+            </nav>
         </div>
 
     </header>
 
-    <main>
-        <!--Main-->
+    <main class="container">
+        <section class="get-in-touch">
+            <h2>Get in touch</h2>
+            <p>You can reach us over the phone, by contact form, by email, or by live chat. We are happy to help you with any questions you might have.</p>
+        </section>
+        <section class="contact-form">
+            <form>
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="name-input">Name</label>
+                        <input type="text" class="form-control" id="name-input" placeholder="Jane Smith">
+                        <label for="email-input">Email</label>
+                        <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="youremail@gmail.com">
+                    </div>
+                    <div class="col-sm">
+                        <label for="text-input">Message</label>
+                        <textarea class="form-control" id="text-input" rows="4"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+        <section class="contact-form">
+        </section class="contact-info">
+            <p>Country Chic Paint was founded on beautiful Vancouver Island, in BC, Canada; this is where our head office and warehouse are located. Canadian orders ship from here; however, if you are in the United States, your order will likely ship from our distribution warehouse in Indiana.</p>
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Hours</h2>
+                    <p>Monday-Thursday</p>
+                    <p>8:00 am- 4:30 pm PST/PDT</p>
+                    <p>Friday excluding holidays</p>
+                    <p>8:00 am- 2:30pm PST/PDT</p>
+                    <a class="btn btn-light btn-md uppercase" href="">Call Us</a>
+                </div>
+                <div class="col-sm">
+                    <h2>Contact Us</h2>
+                    <p>1-888-523-2360</p>
+                    <p>Phone calls and messages will be answered during our business hours.</p>
+                    <p>You can also fill out our form above.</p>
+                    <a class="btn btn-light btn-md uppercase" href="">Email Us</a>
+                </div>
+                <div class="col-sm">
+                    <h2>Store Locator</h2>
+                    <p>Find your local Country Chic Paint retailer with our store locator.</p>
+                    <p>Interested in stocking Country Chic Paint at your shop? Find out more about our wholesaler program here.</p>
+                    <a class="btn btn-light btn-md uppercase" href="">Find a store</a>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
-        <!--Footer-->
+        <section class="footer-grid row">
+            <div class="col-md-3">
+                <img class="img-fluid" src="images/ccp-v2.png" alt="Country Chic Logo" title="Country Chic Logo" />
+            </div>
+            <div class="col-md-5">
+                <h2>Shop and Learn</h2>
+                <ul class="list-unstyled row">
+                    <div class="col-sm">
+                        <li><a href="">Shop Online</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Shipping Information</a></li>
+                        <li><a href="">Tutorials</a></li>
+                        <li><a href="">Inspiration</a></li>
+                    </div>
+                    <div class="col-sm">
+                        <li><a href="">Paint Colors</a></li>
+                        <li><a href="">Sample Finishes</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Store Locator</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>About Us</h2>
+                <ul class="list-unstyled row">
+                    <div class="col-sm">
+                        <li><a href="">Our Story</a></li>
+                        <li><a href="">Meet Our Team</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Wholesale Inquiries</a></li>
+                        <li><a href="">Referral Program</a></li>
+                    </div>
+                    <div class="col-sm">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">VOC Testing</a></li>
+                        <li><a href="">MSDS</a></li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-social">
+            <div class="footer-social-icons text-center">
+                <!--pinterest icon-->
+                <!--Instagram icon-->
+                <!--Twitter icon-->
+                <!--Facebook icon-->
+                <!--Website icon-->
+            </div>
+        </social>
     </footer>
     <script src="js/main.js"></script>
-    <script src="js/hamburger.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

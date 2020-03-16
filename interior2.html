@@ -12,51 +12,104 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!--[if lt IE 9]>
-	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
     <header>
         <div>
-            <div>
-                <!--img src="FLOWER"-->
-            </div>
-            <div>
-                <button class="hamburger">&#9776;</button>
-                <button class="cross">&#735;</button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+              <a class="navbar-brand" href="#">Flower Here</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-                <nav class="menu">
-				<ul>
-          			<li><a href="about.html">About Us</a></li>
-					<li><a href="interior1.html">Interior 1</a></li>
-					<li><a href="interior2.html">Interior 2</a></li>
-				</ul>
-			</nav>
-
-			<nav class="desktop-menu">
-				<ul>
-                    <li><a href="about.html">About Us</a></li>
-					<li><a href="interior1.html">Interior 1</a></li>
-					<li><a href="interior2.html">Interior 2</a></li>
-				</ul>
-			</nav>
-            </div>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                </form>
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">Our Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Colors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop Online</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tutorials</a>
+                  </li>
+                </ul>
+                <a class="btn btn-light btn-sm" href="">Shop Now</a>
+              </div>
+            </nav>
         </div>
 
     </header>
 
-    <main>
-        <!--Main-->
+    <main class="container">
+
+
+
     </main>
 
     <footer>
-        <!--Footer-->
+        <section class="footer-grid row">
+            <div class="col-md-3">
+                <img class="img-fluid" src="images/ccp-v2.png" alt="Country Chic Logo" title="Country Chic Logo" />
+            </div>
+            <div class="col-md-5">
+                <h2>Shop and Learn</h2>
+                <ul class="list-unstyled row">
+                    <div class="col-sm">
+                        <li><a href="">Shop Online</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Shipping Information</a></li>
+                        <li><a href="">Tutorials</a></li>
+                        <li><a href="">Inspiration</a></li>
+                    </div>
+                    <div class="col-sm">
+                        <li><a href="">Paint Colors</a></li>
+                        <li><a href="">Sample Finishes</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Store Locator</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>About Us</h2>
+                <ul class="list-unstyled row">
+                    <div class="col-sm">
+                        <li><a href="">Our Story</a></li>
+                        <li><a href="">Meet Our Team</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Wholesale Inquiries</a></li>
+                        <li><a href="">Referral Program</a></li>
+                    </div>
+                    <div class="col-sm">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">VOC Testing</a></li>
+                        <li><a href="">MSDS</a></li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-social">
+            <div class="footer-social-icons text-center">
+                <!--pinterest icon-->
+                <!--Instagram icon-->
+                <!--Twitter icon-->
+                <!--Facebook icon-->
+                <!--Website icon-->
+            </div>
+        </social>
     </footer>
     <script src="js/main.js"></script>
-    <script src="js/hamburger.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
