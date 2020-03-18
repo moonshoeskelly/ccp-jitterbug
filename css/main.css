@@ -32,6 +32,7 @@ nav .btn:hover {
 
 /************************HOMEPAGE: HEADER**************************/
 .logo-container {
+	padding-top: 50px;
 	text-align: center;
 	height: auto;
 }
@@ -70,10 +71,6 @@ nav .btn:hover {
 	font-size: 50px;
 	padding-top: 0px;
 	margin-top: 0px;
-}
-
-.main-cat-button {
-	margin: 40px 20px 20px 20px;
 }
 
 .main-cat-button a {
@@ -148,11 +145,45 @@ background-color: #fff;
 	font-size: 20px;
 	line-height: 1.5;
 	margin-top: 10px;
-
 }
-/************************FONTS**************************/
+/************************OUR STORY**************************/
 
+.main-story {
+	background-image: url(../images/home-story.png);
+	background-position-x: 90%;
+	background-color: #27405D;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  height: 570px;
+  transition: 0.6s linear;
+}
 
+.main-story .article-wrapper {
+overflow: auto;
+width: 60vw;
+float: right;
+vertical-align: middle;
+padding: 40px 50px 0px 0px;
+height: 530px;
+}
+.main-story .article-wrapper .main-story-article h2 {
+	font-family: linotype-didot-headline, serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 50px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.main-story .article-wrapper .main-story-article p {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 300;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-top: 10px;
+}
 /********************************************************/
 
 
