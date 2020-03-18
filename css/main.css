@@ -184,6 +184,7 @@ height: 530px;
 	line-height: 1.5;
 	margin-top: 10px;
 }
+/***********************************************************************/
 
 /**************************SOCIAL +SECTION******************************/
 
@@ -202,10 +203,22 @@ height: 530px;
 .social-icons-wrapper {
 	text-align: center;
 	margin: 0 auto;
+	width: 300px;
 }
 .main-social-icons row {
 	text-align: center;
 	margin: 20px;
+}
+
+/***************************TESTIMONIAL SECTION***********************/
+
+.main-testimonials {
+	text-align: center;
+	margin: auto;
+}
+
+.main-testimonials img {
+	width: 210px;
 }
 /*******************HAMBURGER MENU***********************/
 
