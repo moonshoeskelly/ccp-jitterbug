@@ -29,6 +29,12 @@ nav .btn:hover {
 	border: 2px solid #D6A09A;
 	transition: 0.7s;
 }
+/********************************************************/
+
+/*******************HAMBURGER MENU***********************/
+
+/********************************************************/
+
 
 /************************HOMEPAGE: HEADER**************************/
 .logo-container {
@@ -186,7 +192,7 @@ height: 530px;
 }
 /***********************************************************************/
 
-/**************************SOCIAL +SECTION******************************/
+/**************************SOCIAL + FEED SECTION************************/
 
 .main-social {
 	text-align: center;
@@ -215,15 +221,62 @@ height: 530px;
 .main-testimonials {
 	text-align: center;
 	margin: auto;
+	background-color: #CFD5DE;
+	padding: 40px;
 }
 
-.main-testimonials img {
+.main-testimonials-carousel img {
 	width: 210px;
 }
-/*******************HAMBURGER MENU***********************/
 
+.main-testimonials h2 {
+	font-family: linotype-didot-headline, serif;
+	font-weight: 400;
+	color: #27405D;
+	font-size: 50px;
+	padding-top: 15px;
+	margin-top: 0px;
+}
+
+.main-testimonials p {
+		font-family: myriad-pro, sans-serif;
+		font-weight: 300;
+		color: #27405D;
+		font-size: 20px;
+		line-height: 1.5;
+		margin-top: 10px;
+}
+
+/*******************FOOTER***********************/
+
+footer {
+	background-color: #27405D;
+	padding: 20px 0px 0px 0px;
+}
+
+footer .img-fluid {
+	padding: 20px;
+	width: 90%;
+}
+
+.footer-grid h2 {
+	font-family: linotype-didot-headline, serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 35px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+footer .list-unstyled a {
+	color: #fff;
+	line-height: 2;
+}
+.footer-social {
+	padding: 20px;
+	background-color: #E0AB26;
+}
 /********************************************************/
-
 
 
 /********************MEDIA QUERIES************************/
