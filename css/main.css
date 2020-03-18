@@ -101,6 +101,7 @@ nav .btn:hover {
 .main-products {
 	text-align: center;
 	padding: 40px;
+	max-width: 1200px;
 }
 
 .main-products-grid .circle {
@@ -127,7 +128,7 @@ background-color: #fff;
 	font-weight: 400;
 	color: #27405D;
 	font-size: 50px;
-	padding-top: 0px;
+	padding-top: 15px;
 	margin-top: 0px;
 }
 
@@ -137,14 +138,16 @@ background-color: #fff;
 	color: #27405D;
 	font-size: 36px;
 	padding-top: 0px;
-	margin-top: 0px;
+	margin-top: 10px;
 }
 
 .main-products p {
 	font-family: myriad-pro, sans-serif;
 	font-weight: 300;
 	color: #27405D;
-	font-size: 22px;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-top: 10px;
 
 }
 /************************FONTS**************************/
