@@ -17,7 +17,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 nav .btn {
 	padding: 10px 25px 10px 25px;
-	width: 300px;
+	width: 225px;
 	background-color: #D6A09A;
 	color: #fff;
 	font-family: myriad-pro, sans-serif;
@@ -214,13 +214,21 @@ height: 530px;
 .social-icons-wrapper {
 	text-align: center;
 	margin: 0 auto;
-	width: 300px;
+	width: 400px;
 }
-.main-social-icons row {
+.main-social-icons.row {
+    justify-content: center;
 	text-align: center;
 	margin: 20px;
 }
 
+.social-icon {
+	margin: 0 5%;
+}
+
+.face-yellow {
+	width: 20px;
+}
 /***************************TESTIMONIAL SECTION***********************/
 
 .main-testimonials {
@@ -252,6 +260,10 @@ height: 530px;
 		margin-top: 10px;
 }
 
+/******************TUTORIALS********************/
+.tutorials-box {
+	overflow: auto;
+}
 /*******************FOOTER***********************/
 
 footer {
