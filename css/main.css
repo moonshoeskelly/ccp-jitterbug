@@ -8,6 +8,11 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
 	display:block;
 }
+
+/*************************GLOBAL****************************/
+.main-top {
+	margin-top: 100px;
+}
 /***************************NAV*****************************/
 
 nav .btn {
