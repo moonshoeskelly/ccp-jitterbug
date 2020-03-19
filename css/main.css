@@ -241,6 +241,47 @@ height: 530px;
 	height: 305px;
 }
 
+/************************CONTACT**************************/
+h2 {
+	font-family: linotype-didot-headline, serif;
+	font-size: 30px;
+}
+.get-in-touch {
+	padding-top: 130px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	font-family: myriad-pro, sans-serif;
+	font-size: 20px;
+	background-color: #E9C4C0;
+	color: #27405D;
+}
+
+.col-sm-4, .col-sm-8 {
+	margin-top: 20px;
+}
+
+.col-sm-4 p, .col-sm-4 h2 {
+	padding-left: 30px;
+}
+
+.col-sm-8 img {
+	width: 100%;
+}
+
+.contact-info {
+	background-color: #CFD5DE;
+	color: #27405D;
+	padding: 75px;
+}
+
+.contact-form {
+	padding: 90px;
+	font-family: linotype-didot-headline, serif;
+	font-size: 20px;
+	color: #27405D;
+}
+
 /***************************TESTIMONIAL SECTION***********************/
 
 .main-testimonials {
