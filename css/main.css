@@ -246,6 +246,26 @@ height: 530px;
 		line-height: 1.5;
 		margin-top: 10px;
 }
+/************************ABOUT**************************/
+h2 {
+	font-family: linotype-didot-headline, serif;
+}
+.get-in-touch {
+	padding-top: 130px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	font-family: myriad-pro, sans-serif;
+	font-size: 22px;
+	background-color: #E9C4C0;
+	color: #27405D;
+}
+
+.contact-info {
+	background-color: #CFD5DE;
+	color: #27405D;
+}
+
 
 /*******************FOOTER***********************/
 
