@@ -262,7 +262,20 @@ height: 530px;
 
 /******************TUTORIALS********************/
 .tutorials-box {
+	height: 900px;
 	overflow: auto;
+}
+
+.video-box {
+	background-color: #CED4DD;
+	margin: 10px 1%;
+}
+
+.video {
+	margin-top: 20px;
+	max-width: 400px;
+	width: 100%;
+	 height: 205px;
 }
 /*******************FOOTER***********************/
 
