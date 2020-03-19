@@ -249,6 +249,7 @@ height: 530px;
 /************************ABOUT**************************/
 h2 {
 	font-family: linotype-didot-headline, serif;
+	font-size: 30px;
 }
 .get-in-touch {
 	padding-top: 130px;
@@ -256,14 +257,22 @@ h2 {
 	padding-right: 15px;
 	padding-bottom: 25px;
 	font-family: myriad-pro, sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	background-color: #E9C4C0;
 	color: #27405D;
+}
+
+.col-sm-8 img {
+	width: 100%;
 }
 
 .contact-info {
 	background-color: #CFD5DE;
 	color: #27405D;
+}
+
+.contact-form {
+	padding: 110px;
 }
 
 
