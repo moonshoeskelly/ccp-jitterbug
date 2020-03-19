@@ -262,6 +262,14 @@ h2 {
 	color: #27405D;
 }
 
+.col-sm-4, .col-sm-8 {
+	margin-top: 20px;
+}
+
+.col-sm-4 p, .col-sm-4 h2 {
+	padding-left: 30px;
+}
+
 .col-sm-8 img {
 	width: 100%;
 }
@@ -269,10 +277,14 @@ h2 {
 .contact-info {
 	background-color: #CFD5DE;
 	color: #27405D;
+	padding: 75px;
 }
 
 .contact-form {
-	padding: 110px;
+	padding: 90px;
+	font-family: linotype-didot-headline, serif;
+	font-size: 20px;
+	color: #27405D;
 }
 
 
