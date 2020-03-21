@@ -395,6 +395,14 @@ label {
 }
 
 /******************TUTORIALS********************/
+h3 {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 600;
+	color: #27405D;
+	font-size: 20px;
+	padding: 15px;
+}
+
 .tutorials-info h2 {
 	color: #E9C4C0;
 	padding-top: 10px;
@@ -405,8 +413,8 @@ label {
 }
 
 .tutorials-info a {
-    color: #E9C4C0;
-    text-decoration: none;
+  color: #E9C4C0;
+  text-decoration: none;
 }
 
 .tutorials-box {
@@ -415,16 +423,35 @@ label {
 }
 
 .video-box {
-	background-color: #CED4DD;
-	margin: 10px 1%;
+	background-color: #CFD5DE;
+	margin: 25px 5%;
+}
+
+.video-box p {
+	font-family: myriad-pro, sans-serif;
+	color: #27405D;
+	font-size: 15px;
+	padding-left: 15px;
+}
+
+.video-box a {
+	font-family: myriad-pro, sans-serif;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 .video {
-	margin-top: 20px;
-	max-width: 400px;
 	width: 100%;
-	height: 205px;
+	height: 250px;
 }
+
+.col-xs-tutorials {
+    margin-left: 27px;
+    margin-right: -15px;
+    margin-bottom: 15px;
+}
+
 /*******************FOOTER***********************/
 
 footer {
