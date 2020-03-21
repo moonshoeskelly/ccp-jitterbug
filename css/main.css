@@ -242,9 +242,30 @@ height: 530px;
 }
 
 /************************CONTACT**************************/
+
+.bg-primary {
+    background-color: #27405d!important;
+}
+
+.navbar-nav, .nav-link {
+	padding-right: 45px;
+	margin-left: 15px;
+	color: #fff!important;
+	font-weight: 600;
+	font-family: myriad-pro, sans-serif;
+	font-size: 16px;
+}
+
+nav .btn {
+		padding: 5px;
+    font-size: 16px;
+		margin-left: 10px;
+}
+
 h2 {
 	font-family: linotype-didot-headline, serif;
 	font-size: 30px;
+	font-weight: bold;
 }
 .get-in-touch {
 	padding-top: 130px;
@@ -254,7 +275,7 @@ h2 {
 	font-family: myriad-pro, sans-serif;
 	font-size: 20px;
 	background-color: #E9C4C0;
-	color: #27405D;
+	color: #27405d;
 }
 
 .col-sm-4, .col-sm-8 {
@@ -269,6 +290,11 @@ h2 {
 	width: 100%;
 }
 
+.col-sm-8 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 .contact-info {
 	background-color: #CFD5DE;
 	color: #27405D;
@@ -276,16 +302,23 @@ h2 {
 }
 
 .contact-form {
-	padding: 90px;
+	padding: 70px;
 	font-family: linotype-didot-headline, serif;
 	font-size: 20px;
 	color: #27405D;
+}
+
+.message {
+	margin-bottom: 45px;
 }
 
 .btn-primary {
   color: #fff;
   background-color: #E9C4C0;
   border-color: #E9C4C0;
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 
 .btn-primary:hover {
@@ -306,6 +339,28 @@ h2 {
   color: white;
   background-color: #27405d;
   border-color: #27405d;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+		margin-top: 8px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #CFD5DE;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 /***************************TESTIMONIAL SECTION***********************/
