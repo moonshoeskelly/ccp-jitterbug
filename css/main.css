@@ -282,6 +282,32 @@ h2 {
 	color: #27405D;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #E9C4C0;
+  border-color: #E9C4C0;
+}
+
+.btn-primary:hover {
+  color: #E9C4C0;
+  background-color: #fff;
+  border-color: #E9C4C0;
+}
+
+.btn-light {
+	 color: white;
+	 background-color: #DFA91E;
+	 border-color: #DFA91E;
+	 font-weight: 600;
+	 text-transform: capitalize;
+}
+
+.btn-light:hover {
+  color: white;
+  background-color: #27405d;
+  border-color: #27405d;
+}
+
 /***************************TESTIMONIAL SECTION***********************/
 
 .main-testimonials {
