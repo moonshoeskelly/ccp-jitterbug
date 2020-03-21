@@ -395,6 +395,20 @@ label {
 }
 
 /******************TUTORIALS********************/
+.tutorials-info h2 {
+	color: #E9C4C0;
+	padding-top: 10px;
+}
+
+.tutorials-info p {
+	font-family: myriad-pro, sans-serif;
+}
+
+.tutorials-info a {
+    color: #E9C4C0;
+    text-decoration: none;
+}
+
 .tutorials-box {
 	height: 900px;
 	overflow: auto;
