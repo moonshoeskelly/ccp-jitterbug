@@ -316,6 +316,8 @@ h2 {
 }
 
 .btn-primary {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 600;
   color: #fff;
   background-color: #E9C4C0;
   border-color: #E9C4C0;
