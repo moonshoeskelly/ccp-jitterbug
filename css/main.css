@@ -14,9 +14,12 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 	margin-top: 100px;
 }
 /***************************NAV*****************************/
+.bg-primary {
+    background-color: #27405d !important;
+}
 
 nav .btn {
-	padding: 10px 25px 10px 25px;
+	padding: 5px 20px 5px 20px;
 	width: 225px;
 	background-color: #D6A09A;
 	color: #fff;
@@ -26,6 +29,7 @@ nav .btn {
 	text-transform: uppercase;
 	border: 2px solid #D6A09A;
 	border-radius: 6px;
+	margin-left: 10px;
 }
 
 nav .btn:hover {
@@ -34,6 +38,17 @@ nav .btn:hover {
 	border: 2px solid #D6A09A;
 	transition: 0.7s;
 }
+
+.navbar-nav, .nav-link {
+	padding-right: 45px;
+	margin-left: 15px;
+	color: #fff!important;
+	font-weight: 600;
+	font-family: myriad-pro, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
 /********************************************************/
 
 /*******************HAMBURGER MENU***********************/
@@ -243,30 +258,12 @@ height: 530px;
 
 /************************CONTACT**************************/
 
-.bg-primary {
-    background-color: #27405d!important;
-}
-
-.navbar-nav, .nav-link {
-	padding-right: 45px;
-	margin-left: 15px;
-	color: #fff!important;
-	font-weight: 600;
-	font-family: myriad-pro, sans-serif;
-	font-size: 16px;
-}
-
-nav .btn {
-		padding: 5px;
-    font-size: 16px;
-		margin-left: 10px;
-}
-
 h2 {
 	font-family: linotype-didot-headline, serif;
 	font-size: 30px;
 	font-weight: bold;
 }
+
 .get-in-touch {
 	padding-top: 130px;
 	padding-left: 15px;
@@ -278,21 +275,22 @@ h2 {
 	color: #27405d;
 }
 
-.col-sm-4, .col-sm-8 {
+.contact-section-one {
 	margin-top: 20px;
 }
 
-.col-sm-4 p, .col-sm-4 h2 {
+.get-in-touch p, h2 {
 	padding-left: 30px;
 }
 
-.col-sm-8 img {
-	width: 100%;
-}
-
-.col-sm-8 {
+.col-sm-8.storefront-img {
 	padding-left: 0px;
 	padding-right: 0px;
+    background-image: url("../images/storefront.png");
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+	background-color: #cccccc;
 }
 
 .contact-info {
@@ -486,8 +484,6 @@ footer .list-unstyled a {
 /**************************COLORS*************************/
 .color-circle {
 	text-align: center;
-	flex: 0 0 50%;
-	max-width: 50%;
 }
 /********************************************************/
 
