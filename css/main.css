@@ -256,6 +256,28 @@ height: 530px;
 	height: 305px;
 }
 
+.about-company-values {
+	background-color: #E9C4C0;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0px;
+	color: #fff;
+}
+.icons-companyvalues {
+	max-width: 80px;
+	min-width: 50px;
+	height: auto;
+	margin: 20px;
+}
+.navy-header {
+font-family: linotype-didot-headline, serif;
+font-weight: 400;
+color: #27405D;
+font-size: 50px;
+padding-top: 15px;
+margin-top: 0px;
+}
 /************************CONTACT**************************/
 
 h2 {
