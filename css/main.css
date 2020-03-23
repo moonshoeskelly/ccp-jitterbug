@@ -268,7 +268,7 @@ h2 {
 	padding-top: 130px;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-bottom: 25px;
+	padding-bottom: 95px;
 	font-family: myriad-pro, sans-serif;
 	font-size: 20px;
 	background-color: #E9C4C0;
@@ -279,8 +279,13 @@ h2 {
 	margin-top: 20px;
 }
 
+.get-in-touch h2 {
+	padding-left: 30px;
+}
+
 .get-in-touch p {
 	padding-left: 30px;
+	font-family: myriad-pro, sans-serif;
 }
 
 .col-sm-8.storefront-img {
@@ -311,38 +316,40 @@ h2 {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #E9C4C0;
-  border-color: #E9C4C0;
+  	color: #fff;
+  	background-color: #E9C4C0;
+  	border-color: #E9C4C0;
+  	font-family: myriad-pro, sans-serif;
+	font-weight: 600;
 	width: 40%;
 	margin-left: 30%;
 	margin-right: 30%;
 }
 
 .btn-primary:hover {
-  color: #E9C4C0;
-  background-color: #fff;
-  border-color: #E9C4C0;
+  	color: #E9C4C0;
+  	background-color: #fff;
+  	border-color: #E9C4C0;
 }
 
 .btn-light {
-	 color: white;
-	 background-color: #DFA91E;
-	 border-color: #DFA91E;
-	 font-weight: 600;
-	 text-transform: capitalize;
+	color: white;
+	background-color: #DFA91E;
+	border-color: #DFA91E;
+	font-weight: 600;
+	text-transform: capitalize;
 }
 
 .btn-light:hover {
-  color: white;
-  background-color: #27405d;
-  border-color: #27405d;
+  	color: white;
+  	background-color: #27405d;
+  	border-color: #27405d;
 }
 
 label {
     display: inline-block;
     margin-bottom: 8px;
-		margin-top: 8px;
+	margin-top: 8px;
 }
 
 .form-control {
@@ -482,8 +489,41 @@ footer .list-unstyled a {
 /********************************************************/
 
 /**************************COLORS*************************/
+.col-sm-8.paint-img {
+	padding-left: 0px;
+	padding-right: 0px;
+    background-image: url("../images/Ccp-decorpaint.png");
+    background-size: cover;
+    background-position: center center;
+    min-height: 450px;
+	background-color: #cccccc;
+}
+
+.col-sm-4.contact {
+	background-color: #CEC7BA;
+	padding-top: 110px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.col-sm-4.contact h2 {
+	color: #26405d;
+	font-family: linotype-didot-headline, serif;
+	font-weight: 600;
+}
+
+.col-sm-4.contact p {
+	color: #26405d;
+	font-family: myriad-pro, sans-serif;
+	font-size: 20px;
+}
+
 .color-circle {
 	text-align: center;
+}
+
+.colors-1.row, .colors-2.row, .colors-3.row, .colors-4.row, .colors-5.row, .colors-6.row, .colors-7.row, .colors-8.row {
+	margin: 50px!important;
 }
 /********************************************************/
 
