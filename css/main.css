@@ -18,35 +18,60 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     background-color: #27405d !important;
 }
 
+.header-logo-text {
+	max-width: 190px;
+	width: 90%;
+	margin-left: 15px;
+}
+
 nav .btn {
-	padding: 5px 20px 5px 20px;
-	width: 225px;
-	background-color: #D6A09A;
+	padding: 5px 0;
+	max-width: 225px;
+	width: 50%;
+	background-color: #E0AB26;
 	color: #fff;
 	font-family: myriad-pro, sans-serif;
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 1rem;
 	text-transform: uppercase;
-	border: 2px solid #D6A09A;
+	border: 2px solid #E0AB26;
 	border-radius: 6px;
 	margin-left: 10px;
+	white-space: nowrap;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 nav .btn:hover {
-	color: #D6A09A;
+	color: #E0AB26;
 	background-color: #fff;
-	border: 2px solid #D6A09A;
+	border: 2px solid #E0AB26;
 	transition: 0.7s;
 }
 
+.navbar-nav {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.nav-item {
+	padding: 0 1%;
+}
+
 .navbar-nav, .nav-link {
-	padding-right: 45px;
-	margin-left: 15px;
 	color: #fff!important;
 	font-weight: 600;
 	font-family: myriad-pro, sans-serif;
-	font-size: 16px;
+	font-size: .875rem;
 	text-transform: uppercase;
+}
+
+a.nav-link {
+    white-space: nowrap;
+}
+
+a.nav-link:hover {
+	color: #E0AB26 !important;
 }
 
 /********************************************************/
@@ -552,5 +577,25 @@ footer .list-unstyled a {
 
 
 /********************MEDIA QUERIES************************/
+@media(min-width: 992px) {
+	nav .btn {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.active {
+		border-bottom: 1px solid #74A6D6 !important;
+	}
+}
+
+@media(min-width: 1222px) {
+	.navbar-nav, .nav-link {
+		font-size: 1rem;
+	}
+
+	nav .btn {
+		font-size: 1.375rem;
+	}
+}
 
 /********************************************************/
