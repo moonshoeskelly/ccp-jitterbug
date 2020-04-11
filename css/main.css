@@ -11,11 +11,21 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 /*************************GLOBAL****************************/
 .main-top {
-	margin-top: 100px;
+	margin-top: 120px;
 }
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 /***************************NAV*****************************/
 .bg-primary {
-    background-color: #27405d !important;
+	background-color: #27405d !important;
 }
 
 .header-logo-text {
@@ -67,18 +77,13 @@ nav .btn:hover {
 }
 
 a.nav-link {
-    white-space: nowrap;
+	white-space: nowrap;
 }
 
 a.nav-link:hover {
 	color: #E0AB26 !important;
 }
-
-/********************************************************/
-
-/*******************HAMBURGER MENU***********************/
-
-/********************************************************/
+/*****************************************************************/
 
 
 /************************HOMEPAGE: HEADER**************************/
@@ -144,8 +149,7 @@ a.nav-link:hover {
 	transition: 0.7s;
 }
 
-/************************* HOMEPAGE: MAIN PRODUCTS SECTION*******************************/
-
+/************* HOMEPAGE: MAIN PRODUCTS SECTION*****************/
 .main-products {
 	text-align: center;
 	padding: 40px;
@@ -154,16 +158,16 @@ a.nav-link:hover {
 
 .main-products-grid .circle {
 	border-radius: 100px;
-display: flex;
-border: 2px solid #E0AB26;
-width: 145px;
-height: 145px;
-margin: 0 auto;
-transition: all .3s ease;
-justify-content: center;
-align-items: center;
-background-color: #fff;
-	}
+	display: flex;
+	border: 2px solid #E0AB26;
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	transition: all .3s ease;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
 
 .main-products-grid .circle:hover {
 	box-shadow: inset 0 0 0 8px #E0AB26;
@@ -197,27 +201,28 @@ background-color: #fff;
 	line-height: 1.5;
 	margin-top: 10px;
 }
-/************************OUR STORY**************************/
 
+/**************HOMEPAGE: OUR STORY SECTION************************/
 .main-story {
 	background-image: url(../images/home-story.png);
 	background-position-x: 90%;
 	background-color: #27405D;
-  background-size: cover;
-  background-position: left top;
-  background-repeat: no-repeat;
-  height: 570px;
-  transition: 0.6s linear;
+	background-size: cover;
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 570px;
+	transition: 0.6s linear;
 }
 
 .main-story .article-wrapper {
-overflow: auto;
-width: 60vw;
-float: right;
-vertical-align: middle;
-padding: 40px 50px 0px 0px;
-height: 530px;
+	overflow: auto;
+	width: 60vw;
+	float: right;
+	vertical-align: middle;
+	padding: 40px 50px 0px 0px;
+	height: 530px;
 }
+
 .main-story .article-wrapper .main-story-article h2 {
 	font-family: linotype-didot-headline, serif;
 	font-weight: 400;
@@ -235,9 +240,8 @@ height: 530px;
 	line-height: 1.5;
 	margin-top: 10px;
 }
-/***********************************************************************/
 
-/**************************SOCIAL + FEED SECTION************************/
+/**************HOMEPAGE: SOCIAL + FEED SECTION************************/
 
 .main-social {
 	text-align: center;
@@ -257,7 +261,7 @@ height: 530px;
 	width: 400px;
 }
 .main-social-icons.row {
-    justify-content: center;
+	justify-content: center;
 	text-align: center;
 	margin: 20px;
 }
@@ -270,10 +274,51 @@ height: 530px;
 	width: 20px;
 }
 
-/**************************ABOUT US**********************************/
-.family{
+/*****************HOMEPAGE: TESTIMONIAL SECTION***********************/
+.main-testimonials {
+	text-align: center;
+	margin: auto;
+	background-color: #CFD5DE;
+	padding: 40px;
+}
+
+.main-testimonials-carousel img {
+	width: 210px;
+}
+
+.main-testimonials h2 {
+	font-family: linotype-didot-headline, serif;
+	font-weight: 400;
+	color: #27405D;
+	font-size: 50px;
+	padding-top: 15px;
+	margin-top: 0px;
+}
+
+.main-testimonials p {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 300;
+	color: #27405D;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+/*********************************************************************/
+
+/************************OUR STORY***********************************/
+.fam-photo{
+	display: none;
+}
+
+.mobile-family {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.family {
 	max-width: 500px;
 	width: 90%;
+	margin-bottom: 5px;
 }
 
 .family-video {
@@ -281,30 +326,153 @@ height: 530px;
 	height: 305px;
 }
 
+.our-story-media {
+	text-align: center;
+}
+
+.story-flower {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
 .about-company-values {
 	background-color: #E9C4C0;
-	padding: 20px;
-	width: 100%;
+	padding: 20px 9%;
 	text-align: center;
-	margin: 20px 0px;
-	color: #fff;
+	margin: 20px 0px 0px !important;
 }
+
+.about-company-values p {
+	color: #000;
+	text-align: left;
+	padding-left: 10px;
+	max-width: 350px;
+	width: 100%;
+	display: inline-block;
+
+}
+
 .icons-companyvalues {
 	max-width: 80px;
 	min-width: 50px;
 	height: auto;
 	margin: 20px;
 }
-.navy-header {
-font-family: linotype-didot-headline, serif;
-font-weight: 400;
-color: #27405D;
-font-size: 50px;
-padding-top: 15px;
-margin-top: 0px;
-}
-/************************CONTACT**************************/
 
+.navy-header {
+	font-family: linotype-didot-headline, serif;
+	font-weight: 400;
+	color: #27405D;
+	font-size: 50px;
+	padding-top: 15px;
+	margin-top: 0px;
+}
+
+.values-title {
+	color: #27405D;
+}
+/***********************************************************************/
+
+/**********************************COLORS******************************/
+.col-sm-8.paint-img {
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url("../images/Ccp-decorpaint.png");
+	background-size: cover;
+	background-position: center center;
+	min-height: 450px;
+	background-color: #cccccc;
+}
+
+.col-sm-4.contact {
+	background-color: #CEC7BA;
+	padding-top: 110px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.col-sm-4.contact h2 {
+	color: #26405d;
+	font-family: linotype-didot-headline, serif;
+	font-weight: 600;
+}
+
+.col-sm-4.contact p {
+	color: #26405d;
+	font-family: myriad-pro, sans-serif;
+	font-size: 20px;
+}
+
+.color-circle {
+	text-align: center;
+}
+
+.colors-1.row, .colors-2.row, .colors-3.row, .colors-4.row, .colors-5.row, .colors-6.row, .colors-7.row, .colors-8.row {
+	margin: 50px!important;
+}
+/**********************************************************************/
+
+/******************************TUTORIALS*******************************/
+h3 {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 600;
+	color: #27405D;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.tutorials-info h2 {
+	color: #E9C4C0;
+	padding-top: 10px;
+}
+
+.tutorials-info p {
+	font-family: myriad-pro, sans-serif;
+}
+
+.tutorials-info a {
+	color: #E9C4C0;
+	text-decoration: none;
+}
+
+.tutorials-box {
+	height: 900px;
+	overflow: auto;
+}
+
+.video-box {
+	background-color: #CFD5DE;
+	margin: 25px 5%;
+}
+
+.video-box p {
+	font-family: myriad-pro, sans-serif;
+	color: #27405D;
+	font-size: 15px;
+	padding-left: 15px;
+}
+
+.video-box a {
+	font-family: myriad-pro, sans-serif;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.video {
+	width: 100%;
+	height: 250px;
+}
+
+.col-xs-tutorials {
+	margin-left: 27px;
+	margin-right: -15px;
+	margin-bottom: 15px;
+}
+/***********************************************************************/
+
+/******************************CONTACT*********************************/
 h2 {
 	font-family: linotype-didot-headline, serif;
 	font-size: 30px;
@@ -338,10 +506,10 @@ h2 {
 .col-sm-8.storefront-img {
 	padding-left: 0px;
 	padding-right: 0px;
-    background-image: url("../images/storefront.png");
-    background-size: cover;
-    background-position: center center;
-    min-height: 300px;
+	background-image: url("../images/storefront.png");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px;
 	background-color: #cccccc;
 }
 
@@ -365,18 +533,18 @@ h2 {
 .btn-primary {
 	font-family: myriad-pro, sans-serif;
 	font-weight: 600;
-  	color: #fff;
-  	background-color: #E9C4C0;
-  	border-color: #E9C4C0;
+	color: #fff;
+	background-color: #E9C4C0;
+	border-color: #E9C4C0;
 	width: 40%;
 	margin-left: 30%;
 	margin-right: 30%;
 }
 
 .btn-primary:hover {
-  	color: #E9C4C0;
-  	background-color: #fff;
-  	border-color: #E9C4C0;
+	color: #E9C4C0;
+	background-color: #fff;
+	border-color: #E9C4C0;
 }
 
 .btn-light {
@@ -388,132 +556,45 @@ h2 {
 }
 
 .btn-light:hover {
-  	color: white;
-  	background-color: #27405d;
-  	border-color: #27405d;
+	color: white;
+	background-color: #27405d;
+	border-color: #27405d;
 }
 
 label {
-    display: inline-block;
-    margin-bottom: 8px;
+	display: inline-block;
+	margin-bottom: 8px;
 	margin-top: 8px;
 }
 
 .form-control {
-  display: block;
-  width: 100%;
-  height: calc(1.5em + 0.75rem + 2px);
-  padding: 25px;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #CFD5DE;
-  border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-/***************************TESTIMONIAL SECTION***********************/
-
-.main-testimonials {
-	text-align: center;
-	margin: auto;
-	background-color: #CFD5DE;
-	padding: 40px;
-}
-
-.main-testimonials-carousel img {
-	width: 210px;
-}
-
-.main-testimonials h2 {
-	font-family: linotype-didot-headline, serif;
-	font-weight: 400;
-	color: #27405D;
-	font-size: 50px;
-	padding-top: 15px;
-	margin-top: 0px;
-}
-
-.main-testimonials p {
-		font-family: myriad-pro, sans-serif;
-		font-weight: 300;
-		color: #27405D;
-		font-size: 20px;
-		line-height: 1.5;
-		margin-top: 10px;
-}
-
-/******************TUTORIALS********************/
-h3 {
-	font-family: myriad-pro, sans-serif;
-	font-weight: 600;
-	color: #27405D;
-	font-size: 20px;
-	padding: 15px;
-}
-
-.tutorials-info h2 {
-	color: #E9C4C0;
-	padding-top: 10px;
-}
-
-.tutorials-info p {
-	font-family: myriad-pro, sans-serif;
-}
-
-.tutorials-info a {
-  color: #E9C4C0;
-  text-decoration: none;
-}
-
-.tutorials-box {
-	height: 900px;
-	overflow: auto;
-}
-
-.video-box {
-	background-color: #CFD5DE;
-	margin: 25px 5%;
-}
-
-.video-box p {
-	font-family: myriad-pro, sans-serif;
-	color: #27405D;
-	font-size: 15px;
-	padding-left: 15px;
-}
-
-.video-box a {
-	font-family: myriad-pro, sans-serif;
-	color: #fff;
-	font-size: 15px;
-	font-weight: 600;
-}
-
-.video {
+	display: block;
 	width: 100%;
-	height: 250px;
+	height: calc(1.5em + 0.75rem + 2px);
+	padding: 25px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #CFD5DE;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+/***********************************************************************/
 
-.col-xs-tutorials {
-    margin-left: 27px;
-    margin-right: -15px;
-    margin-bottom: 15px;
-}
-
-/*******************FOOTER***********************/
-
+/**********************************FOOTER******************************/
 footer {
 	background-color: #27405D;
-	padding: 20px 0px 0px 0px;
 }
 
 footer .img-fluid {
-	padding: 20px;
+	max-width: 350px;
 	width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
 }
 
 .footer-grid h2 {
@@ -525,58 +606,50 @@ footer .img-fluid {
 	margin-top: 0px;
 }
 
-footer .list-unstyled a {
-	color: #fff;
-	line-height: 2;
-}
-.footer-social {
-	padding: 20px;
-	background-color: #E0AB26;
-}
-/********************************************************/
-
-/*************************COLORS**************************/
-
-.col-sm-8.paint-img {
-	padding-left: 0px;
-	padding-right: 0px;
-    background-image: url("../images/Ccp-decorpaint.png");
-    background-size: cover;
-    background-position: center center;
-    min-height: 450px;
-	background-color: #cccccc;
+.footer-grid {
+	padding: 10px 4%;
+	margin-bottom: 20px;
 }
 
-.col-sm-4.contact {
-	background-color: #CEC7BA;
-	padding-top: 110px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-.col-sm-4.contact h2 {
-	color: #26405d;
-	font-family: linotype-didot-headline, serif;
-	font-weight: 600;
-}
-
-.col-sm-4.contact p {
-	color: #26405d;
-	font-family: myriad-pro, sans-serif;
-	font-size: 20px;
-}
-
-.color-circle {
+.footer-links-box {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
 }
 
-.colors-1.row, .colors-2.row, .colors-3.row, .colors-4.row, .colors-5.row, .colors-6.row, .colors-7.row, .colors-8.row {
-	margin: 50px!important;
+footer .list-unstyled {
+	text-align: left !important;
+	margin-left: 30px;
 }
-/********************************************************/
 
+footer .links-left {
+padding-left: 20px;
+}
 
-/********************MEDIA QUERIES************************/
+footer .list-unstyled a {
+	color: #fff;
+	line-height: 2;
+	white-space: nowrap;
+}
+
+.footer-social {
+	padding: 1px 0;
+	background-color: #E0AB26;
+}
+/******************************************************************/
+
+/****************************MEDIA QUERIES*************************/
+@media(min-width: 768px) {
+	footer {
+		padding: 20px 0px 0px 0px;
+	}
+
+	footer .list-unstyled a {
+	 	font-size: .95rem;
+	}
+}
+
 @media(min-width: 992px) {
 	nav .btn {
 		margin-top: 0;
@@ -585,6 +658,32 @@ footer .list-unstyled a {
 
 	.active {
 		border-bottom: 1px solid #74A6D6 !important;
+	}
+
+	.mobile-family {
+		display: none;
+	}
+
+	.fam-photo{
+		display: inline-block;
+	}
+
+	.story-flower {
+		margin-left: 0;
+	}
+}
+
+@media(min-width: 1054px) {
+	footer h2 {
+		text-align: left;
+	}
+
+	footer .list-unstyled {
+	 	margin-left: 0px;
+	}
+
+	footer .list-unstyled a {
+	 	font-size: 1rem;
 	}
 }
 
@@ -597,5 +696,4 @@ footer .list-unstyled a {
 		font-size: 1.375rem;
 	}
 }
-
-/********************************************************/
+/*******************************************************************/
