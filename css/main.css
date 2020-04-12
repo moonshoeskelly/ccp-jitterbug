@@ -14,8 +14,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 	margin-top: 120px;
 }
 
-html,body
-{
+html,body {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -23,9 +22,37 @@ html,body
     overflow-x: hidden;
 }
 
+h1 {
+	font-family: linotype-didot-headline, serif;
+	font-weight: 400;
+	font-size: 2.2rem;
+}
+
+h2 {
+	font-family: linotype-didot-headline, serif;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+h3 {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 600;
+	font-size: 1.3rem;
+}
+
+p {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+}
+
 /***************************NAV*****************************/
 .bg-primary {
 	background-color: #27405d !important;
+}
+
+.flower-nav {
+	display: none;
 }
 
 .header-logo-text {
@@ -101,7 +128,8 @@ a.nav-link:hover {
 }
 
 .main-categories-grid img {
-	width: 300px;
+	max-width: 300px;
+	width: 90%;
 	height: auto;
 	margin-top: 25px;
 	padding: 10px 0px 10px 0px;
@@ -116,30 +144,35 @@ a.nav-link:hover {
 	width: 40%;
 	max-width: 400px;
 	min-width: 290px;
-	padding: 20px 20px 50px 20px;
+	padding: 35px 20px 30px 20px;
 	height: auto;
 }
 
 .main-categories h1 {
-	font-family: linotype-didot-headline, serif;
-	font-weight: 400;
 	color: #fff;
-	font-size: 50px;
 	padding-top: 0px;
 	margin-top: 0px;
 }
 
+.main-cat-button {
+	margin: 40px 0 30px;
+}
+
 .main-cat-button a {
+	max-width: 350px;
+	width: 80%;
+	margin: 0 auto;
 	padding: 10px 25px 10px 25px;
-	width: 350px;
+	border: 2px solid #D6A09A;
+	border-radius: 6px;
 	background-color: #D6A09A;
 	color: #fff;
 	font-family: myriad-pro, sans-serif;
 	font-weight: 600;
 	font-size: 22px;
 	text-transform: uppercase;
-	border: 2px solid #D6A09A;
-	border-radius: 6px;
+
+
 }
 
 .main-cat-button a:hover {
@@ -176,28 +209,19 @@ a.nav-link:hover {
 }
 
 .main-products h2 {
-	font-family: linotype-didot-headline, serif;
-	font-weight: 400;
 	color: #27405D;
-	font-size: 50px;
 	padding-top: 15px;
 	margin-top: 0px;
 }
 
 .main-products h3 {
-	font-family: myriad-pro, sans-serif;
-	font-weight: 600;
 	color: #27405D;
-	font-size: 36px;
 	padding-top: 0px;
 	margin-top: 10px;
 }
 
 .main-products p {
-	font-family: myriad-pro, sans-serif;
-	font-weight: 300;
 	color: #27405D;
-	font-size: 20px;
 	line-height: 1.5;
 	margin-top: 10px;
 }
@@ -208,35 +232,26 @@ a.nav-link:hover {
 	background-position-x: 90%;
 	background-color: #27405D;
 	background-size: cover;
-	background-position: left top;
+	background-position: inherit;
 	background-repeat: no-repeat;
 	height: 570px;
 	transition: 0.6s linear;
 }
 
 .main-story .article-wrapper {
-	overflow: auto;
-	width: 60vw;
-	float: right;
-	vertical-align: middle;
-	padding: 40px 50px 0px 0px;
-	height: 530px;
+    vertical-align: middle;
+    height: 530px;
+    background-color: #27405D;
 }
 
 .main-story .article-wrapper .main-story-article h2 {
-	font-family: linotype-didot-headline, serif;
-	font-weight: 400;
 	color: #fff;
-	font-size: 50px;
 	padding-top: 0px;
 	margin-top: 0px;
 }
 
 .main-story .article-wrapper .main-story-article p {
-	font-family: myriad-pro, sans-serif;
-	font-weight: 300;
 	color: #fff;
-	font-size: 20px;
 	line-height: 1.5;
 	margin-top: 10px;
 }
@@ -248,10 +263,7 @@ a.nav-link:hover {
 	margin: 40px 25px 25px 25px;
 }
 .main-social h2 {
-	font-family: linotype-didot-headline, serif;
-	font-weight: 400;
 	color: #27405D;
-	font-size: 50px;
 	padding-top: 15px;
 	margin-top: 0px;
 }
@@ -279,7 +291,11 @@ a.nav-link:hover {
 	text-align: center;
 	margin: auto;
 	background-color: #CFD5DE;
-	padding: 40px;
+	padding: 40px 10% 0;
+}
+
+.testimonials-box {
+	margin-bottom: 20px;
 }
 
 .main-testimonials-carousel img {
@@ -287,21 +303,19 @@ a.nav-link:hover {
 }
 
 .main-testimonials h2 {
-	font-family: linotype-didot-headline, serif;
-	font-weight: 400;
 	color: #27405D;
-	font-size: 50px;
 	padding-top: 15px;
 	margin-top: 0px;
 }
 
 .main-testimonials p {
-	font-family: myriad-pro, sans-serif;
-	font-weight: 300;
 	color: #27405D;
-	font-size: 20px;
 	line-height: 1.5;
-	margin-top: 10px;
+	margin-top: -30px;
+}
+
+.testimonials-p {
+	margin-bottom: -6px;
 }
 /*********************************************************************/
 
@@ -394,14 +408,11 @@ a.nav-link:hover {
 
 .col-sm-4.contact h2 {
 	color: #26405d;
-	font-family: linotype-didot-headline, serif;
 	font-weight: 600;
 }
 
 .col-sm-4.contact p {
 	color: #26405d;
-	font-family: myriad-pro, sans-serif;
-	font-size: 20px;
 }
 
 .color-circle {
@@ -414,25 +425,18 @@ a.nav-link:hover {
 /**********************************************************************/
 
 /******************************TUTORIALS*******************************/
-h3 {
-	font-family: myriad-pro, sans-serif;
-	font-weight: 600;
-	color: #27405D;
-	font-size: 20px;
-	padding: 15px;
-}
-
 .tutorials-info h2 {
-	color: #E9C4C0;
+	color: #D6A09A;
 	padding-top: 10px;
 }
 
-.tutorials-info p {
-	font-family: myriad-pro, sans-serif;
+.tutorials-info h3 {
+	color: #27405D;
+	padding: 15px;
 }
 
 .tutorials-info a {
-	color: #E9C4C0;
+	color: #D6A09A;
 	text-decoration: none;
 }
 
@@ -447,9 +451,7 @@ h3 {
 }
 
 .video-box p {
-	font-family: myriad-pro, sans-serif;
 	color: #27405D;
-	font-size: 15px;
 	padding-left: 15px;
 }
 
@@ -473,11 +475,6 @@ h3 {
 /***********************************************************************/
 
 /******************************CONTACT*********************************/
-h2 {
-	font-family: linotype-didot-headline, serif;
-	font-size: 30px;
-	font-weight: bold;
-}
 
 .get-in-touch {
 	padding-top: 130px;
@@ -496,11 +493,11 @@ h2 {
 
 .get-in-touch h2 {
 	padding-left: 30px;
+	font-weight: bold;
 }
 
 .get-in-touch p {
 	padding-left: 30px;
-	font-family: myriad-pro, sans-serif;
 }
 
 .col-sm-8.storefront-img {
@@ -530,19 +527,19 @@ h2 {
 	margin-bottom: 45px;
 }
 
-.btn-primary {
+.contact-form .btn-primary {
 	font-family: myriad-pro, sans-serif;
 	font-weight: 600;
 	color: #fff;
-	background-color: #E9C4C0;
-	border-color: #E9C4C0;
+	background-color: #D6A09A;
+	border-color: #D6A09A;
 	width: 40%;
 	margin-left: 30%;
 	margin-right: 30%;
 }
 
-.btn-primary:hover {
-	color: #E9C4C0;
+.contact-form .btn-primary:hover {
+	color: #D6A09A;
 	background-color: #fff;
 	border-color: #E9C4C0;
 }
@@ -598,8 +595,6 @@ footer .img-fluid {
 }
 
 .footer-grid h2 {
-	font-family: linotype-didot-headline, serif;
-	font-weight: 400;
 	color: #fff;
 	font-size: 2rem;
 	padding-top: 0px;
@@ -640,6 +635,21 @@ footer .list-unstyled a {
 /******************************************************************/
 
 /****************************MEDIA QUERIES*************************/
+@media(min-width: 400px) {
+	.flower-nav {
+		display: inline-block;
+	}
+}
+
+@media(min-width: 768px) {
+	.main-story .article-wrapper {
+		width: 60vw;
+		float: right;
+		padding: 40px 50px 0px 0px;
+		height: 530px;
+	}
+}
+
 @media(min-width: 768px) {
 	footer {
 		padding: 20px 0px 0px 0px;
@@ -648,9 +658,42 @@ footer .list-unstyled a {
 	footer .list-unstyled a {
 	 	font-size: .95rem;
 	}
+
+	h1 {
+		font-size: 2.4rem;
+	}
+
+	h2 {
+		font-size: 2.2rem;
+	}
+
+	h3 {
+		font-size: 1.4rem;
+	}
+
+	p {
+	font-size: 1.1rem;
+	}
 }
 
 @media(min-width: 992px) {
+
+	h1 {
+		font-size: 2.7rem;
+	}
+
+	h2 {
+		font-size: 2.4rem;
+	}
+
+	h3 {
+		font-size: 1.6rem;
+	}
+
+	p {
+	font-size: 1.2rem;
+	}
+
 	nav .btn {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -658,6 +701,10 @@ footer .list-unstyled a {
 
 	.active {
 		border-bottom: 1px solid #74A6D6 !important;
+	}
+
+	.main-testimonials {
+		padding: 40px 5% 0;
 	}
 
 	.mobile-family {
@@ -670,6 +717,10 @@ footer .list-unstyled a {
 
 	.story-flower {
 		margin-left: 0;
+	}
+
+	.main-story {
+	background-position: bottom;
 	}
 }
 
@@ -695,5 +746,4 @@ footer .list-unstyled a {
 	nav .btn {
 		font-size: 1.375rem;
 	}
-}
 /*******************************************************************/
