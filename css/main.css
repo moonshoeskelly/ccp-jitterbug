@@ -441,29 +441,49 @@ a.nav-link:hover {
 }
 
 .all-colors {
-	margin: 20px 3% 40px;
+	margin: 20px 3% 60px;
 }
 
 .color-circle {
 	text-align: center;
-	margin-top: 30px !important;
+	margin-top: 40px !important;
 }
+
+.all-colors a {
+	color: #000;
+	text-decoration: none;
+}
+
+.color-circle {
+	transform: scale(1.1);
+}
+
+.all-colors svg:hover, .all-colors h5:hover {
+	transform: scale(1.1);
+}
+
+.all-colors h5 {
+	margin-top: 10px;
+}
+
+
 /**********************************************************************/
 
 /******************************TUTORIALS*******************************/
 .tutorials-info h2 {
-	color: #D6A09A;
+	color: #DAAAA4;
 	padding-top: 10px;
 }
 
-.tutorials-info h3 {
-	color: #27405D;
-	padding: 15px;
+.tutorials-info a {
+	color: #E0AB26;
+	text-decoration: none;
+	font-weight: 600;
 }
 
-.tutorials-info a {
-	color: #D6A09A;
-	text-decoration: none;
+.tutorials-box h3 {
+	color: #27405D;
+	padding: 15px;
 }
 
 .tutorials-box {
@@ -503,12 +523,8 @@ a.nav-link:hover {
 /******************************CONTACT*********************************/
 
 .get-in-touch {
-	padding-top: 130px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 95px;
+	padding: 110px 9% 40px;
 	font-family: myriad-pro, sans-serif;
-	font-size: 20px;
 	background-color: #E9C4C0;
 	color: #27405d;
 }
@@ -544,7 +560,7 @@ a.nav-link:hover {
 
 .contact-form {
 	padding: 70px;
-	font-family: linotype-didot-headline, serif;
+	font-family: myriad-pro, sans-serif;
 	font-size: 20px;
 	color: #27405D;
 }
@@ -570,7 +586,7 @@ a.nav-link:hover {
 	border-color: #E9C4C0;
 }
 
-.btn-light {
+.contact-info .btn-light {
 	color: white;
 	background-color: #DFA91E;
 	border-color: #DFA91E;
@@ -578,8 +594,7 @@ a.nav-link:hover {
 	text-transform: capitalize;
 }
 
-.btn-light:hover {
-	color: white;
+.contact-info .btn-light:hover {
 	background-color: #27405d;
 	border-color: #27405d;
 }
@@ -694,6 +709,14 @@ footer .list-unstyled a {
 
 	.social-row {
 		justify-content: space-around;
+	}
+
+	.get-in-touch {
+		padding: 70px 3% 40px;
+	}
+
+	.contact-section-one {
+		margin-top: 70px;
 	}
 }
 
