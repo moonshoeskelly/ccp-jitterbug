@@ -252,11 +252,11 @@ a.nav-link:hover {
 	margin-bottom: 20px;
 }
 
-/* .main-story .article-wrapper {
-    vertical-align: middle;
-    height: 530px;
-    background-color: #27405D;
-} */
+.main-story-article {
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+}
 
 .main-story-article h2 {
 	color: #fff;
@@ -662,13 +662,37 @@ footer .list-unstyled a {
 /******************************************************************/
 
 /****************************MEDIA QUERIES*************************/
+@media(min-width: 340px) {
+	.main-story-button a {
+	    margin: 25px auto 0;
+	}
+
+	.main-story-flower {
+		margin-top: 20px;
+	}
+}
+
 @media(min-width: 400px) {
 	.flower-nav {
 		display: inline-block;
 	}
+
+	.main-story .article-wrapper {
+    	height: 600px;
+	}
+
+	.main-social {
+		text-align: center;
+		margin: 75px 25px 30px 25px;
+	}
+
 }
 
 @media(min-width: 576px) {
+	.main-story .article-wrapper {
+    	height: 570px;
+	}
+
 	.social-row {
 		justify-content: space-around;
 	}
@@ -694,8 +718,16 @@ footer .list-unstyled a {
 	.main-story .article-wrapper {
 		width: 60vw;
 		float: right;
-		padding: 40px 50px 0px 0px;
-		height: 530px;
+		padding: 40px 50px 0px 30px;
+		height: 570px;
+	}
+
+	.main-story-flower {
+		margin-top: 0px;
+	}
+
+	.main-story-button a {
+	    margin: 0 auto;
 	}
 
 	footer {
@@ -704,6 +736,13 @@ footer .list-unstyled a {
 
 	footer .list-unstyled a {
 		font-size: .95rem;
+	}
+}
+
+@media(min-width: 848px) {
+
+	.main-story-button a {
+		margin: 15px auto 0;
 	}
 }
 
@@ -749,6 +788,9 @@ footer .list-unstyled a {
 	.main-story {
 	background-position: bottom;
 	}
+
+	.main-story-article {
+		max-width: 700px;
 }
 
 @media(min-width: 1054px) {
