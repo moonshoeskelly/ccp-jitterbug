@@ -220,10 +220,16 @@ a.nav-link:hover {
 	margin-top: 10px;
 }
 
+.main-prod-box {
+	margin-top: 30px;
+}
+
 .main-products p {
+	margin-top: 0px;
+	margin-bottom: 2px;
+	white-space: nowrap;
 	color: #27405D;
 	line-height: 1.5;
-	margin-top: 10px;
 }
 
 /**************HOMEPAGE: OUR STORY SECTION************************/
@@ -255,7 +261,6 @@ a.nav-link:hover {
 	line-height: 1.5;
 	margin-top: 10px;
 }
-
 /**************HOMEPAGE: SOCIAL + FEED SECTION************************/
 
 .main-social {
@@ -642,23 +647,6 @@ footer .list-unstyled a {
 }
 
 @media(min-width: 768px) {
-	.main-story .article-wrapper {
-		width: 60vw;
-		float: right;
-		padding: 40px 50px 0px 0px;
-		height: 530px;
-	}
-}
-
-@media(min-width: 768px) {
-	footer {
-		padding: 20px 0px 0px 0px;
-	}
-
-	footer .list-unstyled a {
-	 	font-size: .95rem;
-	}
-
 	h1 {
 		font-size: 2.4rem;
 	}
@@ -674,6 +662,21 @@ footer .list-unstyled a {
 	p {
 	font-size: 1.1rem;
 	}
+
+	.main-story .article-wrapper {
+		width: 60vw;
+		float: right;
+		padding: 40px 50px 0px 0px;
+		height: 530px;
+	}
+
+	footer {
+		padding: 20px 0px 0px 0px;
+	}
+
+	footer .list-unstyled a {
+		font-size: .95rem;
+	}
 }
 
 @media(min-width: 992px) {
@@ -688,10 +691,6 @@ footer .list-unstyled a {
 
 	h3 {
 		font-size: 1.6rem;
-	}
-
-	p {
-	font-size: 1.2rem;
 	}
 
 	nav .btn {
@@ -745,5 +744,9 @@ footer .list-unstyled a {
 
 	nav .btn {
 		font-size: 1.375rem;
+	}
+
+	p {
+	font-size: 1.2rem;
 	}
 /*******************************************************************/
