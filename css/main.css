@@ -415,8 +415,8 @@ a.nav-link:hover {
 }
 /***********************************************************************/
 
-/**********************************COLORS******************************/
-.col-sm-8.paint-img {
+/********************************COLORS*********************************/
+.paint-img {
 	padding-left: 0px;
 	padding-right: 0px;
 	background-image: url("../images/Ccp-decorpaint.png");
@@ -426,28 +426,27 @@ a.nav-link:hover {
 	background-color: #cccccc;
 }
 
-.col-sm-4.contact {
+.colors-box {
 	background-color: #CEC7BA;
-	padding-top: 110px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 20px 10%;
 }
 
-.col-sm-4.contact h2 {
+.colors-box h2 {
 	color: #26405d;
 	font-weight: 600;
 }
 
-.col-sm-4.contact p {
+.colors-box p {
 	color: #26405d;
+}
+
+.all-colors {
+	margin: 20px 3%;
 }
 
 .color-circle {
 	text-align: center;
-}
-
-.colors-1.row, .colors-2.row, .colors-3.row, .colors-4.row, .colors-5.row, .colors-6.row, .colors-7.row, .colors-8.row {
-	margin: 50px!important;
+	margin-top: 30px !important;
 }
 /**********************************************************************/
 
@@ -728,6 +727,10 @@ footer .list-unstyled a {
 
 	.main-story-button a {
 	    margin: 0 auto;
+	}
+
+	.colors-box {
+		padding: 140px 3% ;
 	}
 
 	footer {
