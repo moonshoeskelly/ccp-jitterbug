@@ -64,10 +64,13 @@
   margin: auto;
 }
 .main-social-carousel img {
-  text-align: center;
-  max-height: 500px;
-  max-width: 500px;
-  margin: 0 auto;
+  text-align: center !important;
+  min-width: 200px;
+  min-height: 200px;
+  /* max-height: 500px; */
+  max-width: 400px;
+  margin: 0 auto !important;
+  display: block !important;
 }
 /* added to the original element calling slippry */
 
@@ -87,7 +90,6 @@
   text-align: center;
   margin: 0 auto;
   height: 100%;
-  width: 50%;
   max-height: 500px;}
   .sy-slides-wrap:hover .sy-controls {
     text-align: center;
@@ -257,6 +259,13 @@
       text-decoration: none; }
     .sy-caption-wrap .sy-caption a:hover, .sy-caption-wrap .sy-caption a:focus {
       text-decoration: underline; }
+
+  @media (min-width: 500px) and (max-width: 599px) {
+    .sy-caption-wrap {
+        left: 40px !important;
+        bottom: 0.4em !important; }
+  }
+
   @media only screen and (max-device-width: 600px), screen and (max-width: 600px) {
     .sy-caption-wrap {
       left: 0;
