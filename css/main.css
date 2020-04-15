@@ -232,11 +232,15 @@ a.nav-link:hover {
 .main-products p {
 	margin-top: 0px;
 	margin-bottom: 2px;
-	white-space: nowrap;
 	color: #27405D;
 	line-height: 1.5;
 }
 
+.product-description {
+	max-width: 250px;
+	text-align: center;
+	margin: auto;
+}
 /**************HOMEPAGE: OUR STORY SECTION************************/
 .main-story {
 	background-image: url(../images/home-story.png);
