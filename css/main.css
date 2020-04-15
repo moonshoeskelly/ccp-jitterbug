@@ -49,6 +49,7 @@ p {
 /***************************NAV*****************************/
 .navbar-dark {
 	background-color: transparent !important;
+	transition:500ms ease !important;
 }
 
 .other-nav {
@@ -113,6 +114,7 @@ a.nav-link {
 a.nav-link:hover {
 	color: #E0AB26 !important;
 }
+
 /*****************************************************************/
 
 
@@ -126,7 +128,7 @@ a.nav-link:hover {
 	background-image: url(../images/homeheader-bk.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 20px;
+	padding: 20px 20px 40px 20px;
 	text-align: center;
 }
 
