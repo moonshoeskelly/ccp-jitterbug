@@ -51,6 +51,9 @@ p {
 	background-color: transparent !important;
 }
 
+.other-nav {
+	background-color: #27405C !important;
+}
 .flower-nav {
 	display: none;
 }
