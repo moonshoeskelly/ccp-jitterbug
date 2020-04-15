@@ -47,8 +47,8 @@ p {
 }
 
 /***************************NAV*****************************/
-.bg-primary {
-	background-color: #27405d !important;
+.navbar-dark {
+	background-color: transparent !important;
 }
 
 .flower-nav {
@@ -676,7 +676,7 @@ footer .list-unstyled a {
 /******************************************************************/
 
 /****************************MEDIA QUERIES*************************/
-@media(min-width: 340px) {
+@media(min-width: 320px) {
 	.main-story-button a {
 	    margin: 25px auto 0;
 	}
@@ -686,6 +686,9 @@ footer .list-unstyled a {
 	}
 	.logo-container {
 		display: none;
+	}
+	.main-categories {
+		padding-top: 125px;
 	}
 }
 
@@ -834,6 +837,9 @@ footer .list-unstyled a {
 }
 	.logo-container {
 		display: block;
+	}
+	.main-categories {
+		padding-top: 20px;
 	}
 }
 @media(min-width: 1054px) {
