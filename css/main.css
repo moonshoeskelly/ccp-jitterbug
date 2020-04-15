@@ -492,8 +492,8 @@ a.nav-link:hover {
 }
 
 .tutorials-box {
-	height: 900px;
-	overflow: auto;
+	max-width: 1400px;
+
 }
 
 .video-box {
