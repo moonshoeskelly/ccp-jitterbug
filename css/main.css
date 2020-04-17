@@ -118,6 +118,11 @@ a.nav-link:hover {
 	color: #E0AB26 !important;
 }
 
+.navbar-collapse {
+	background-color: #27405C;
+	text-align: center;
+}
+
 /*****************************************************************/
 
 
@@ -820,6 +825,10 @@ footer .list-unstyled a {
 	nav .btn {
 		margin-top: 0;
 		margin-bottom: 0;
+	}
+
+	.navbar-collapse {
+		background-color: transparent;
 	}
 
 	.active {
