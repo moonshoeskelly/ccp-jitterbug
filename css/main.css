@@ -16,7 +16,6 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 html,body {
     width: 100%;
-    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -52,6 +51,10 @@ p {
 	transition:500ms ease !important;
 }
 
+.nav-colored {
+	background-color: #27405C !important;
+}
+
 .other-nav {
 	background-color: #27405C !important;
 }
@@ -62,7 +65,7 @@ p {
 .header-logo-text {
 	max-width: 190px;
 	width: 90%;
-	margin-left: 15px;
+	margin-left: 11px;
 }
 
 nav .btn {
@@ -704,6 +707,7 @@ footer .list-unstyled a {
 @media(min-width: 400px) {
 	.flower-nav {
 		display: inline-block;
+		margin-right: 2px;
 	}
 
 	.main-story .article-wrapper {
