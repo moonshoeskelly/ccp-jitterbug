@@ -74,15 +74,24 @@
         <section class="contact-form">
             <form>
                 <div class="message row">
-                    <div class="col-sm">
+                    <div class="col-sm-12 col-md-6 message-col">
+                        <label for="customer">Type of Customer</label>
+                        <div class="radio-buttons">
+                            <input type="radio" class="form-control customer-button" name="customer" id="individual" value="individual">
+                            <label for="individual">Individual</label>
+                            <input type="radio" class="form-control customer-button" name="customer" id="retailer" value="retailer">
+                            <label for="retailer">Retailer</label>
+                        </div>
                         <label for="name-input">Name</label>
                         <input type="text" class="form-control" id="name-input" placeholder="Jane Smith">
                         <label for="email-input">Email</label>
                         <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="youremail@gmail.com">
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-12 col-md-6 message-col">
+                        <label for="name-input">Subject</label>
+                        <input type="text" class="form-control" id="name-input" placeholder="Your subject here">
                         <label for="text-input">Message</label>
-                        <textarea class="form-control" id="text-input" rows="4"></textarea>
+                        <textarea class="form-control" id="text-input" rows="4" placeholder="Your message here"></textarea>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary" formaction="thankyou.html">SUBMIT</button>
