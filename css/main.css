@@ -651,7 +651,7 @@ footer .img-fluid {
 	color: #fff;
 	font-size: 2rem;
 	padding-top: 0px;
-	margin-top: 0px;
+	margin-top: 10px;
 }
 
 .footer-grid {
@@ -669,6 +669,7 @@ footer .img-fluid {
 footer .list-unstyled {
 	text-align: left !important;
 	margin-left: 30px;
+	margin-bottom: 0;
 }
 
 footer .links-left {
@@ -785,7 +786,7 @@ footer .list-unstyled a {
 	}
 
 	footer .list-unstyled a {
-		font-size: .95rem;
+		font-size: .88rem;
 	}
 	.logo-container {
 		display: none;
@@ -847,17 +848,21 @@ footer .list-unstyled a {
 
 	.main-story-article {
 		max-width: 700px;
-}
+	}
+
 	.logo-container {
 		display: block;
 	}
+
 	.main-categories {
 		padding-top: 20px;
 	}
 }
+
 @media(min-width: 1054px) {
 	footer h2 {
 		text-align: left;
+		margin-top: 0px;
 	}
 
 	footer .list-unstyled {
