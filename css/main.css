@@ -575,10 +575,11 @@ a.nav-link:hover {
 	background-color: #cccccc;
 }
 
-.contact-info {
-	background-color: #CFD5DE;
-	color: #27405D;
-	padding: 75px;
+.message-p {
+	max-width: 535px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
 }
 
 .contact-form {
@@ -638,19 +639,6 @@ a.nav-link:hover {
 	border-color: #E9C4C0;
 }
 
-.contact-info .btn-light {
-	color: white;
-	background-color: #DFA91E;
-	border-color: #DFA91E;
-	font-weight: 600;
-	text-transform: capitalize;
-}
-
-.contact-info .btn-light:hover {
-	background-color: #27405d;
-	border-color: #27405d;
-}
-
 label {
 	display: inline-block;
 	margin-bottom: 8px;
@@ -678,6 +666,50 @@ label {
 #text-input {
 	padding-top: 15px;
 	padding-bottom: 43px;
+}
+
+.contact-row {
+	max-width: 1200px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact-box {
+	max-width: 337px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.contact-box p {
+	margin-bottom: 5px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.contact-info {
+	background-color: #CFD5DE;
+	color: #27405D;
+	padding: 75px 10%;
+	margin: 0 auto;
+}
+
+.contact-info .btn-light {
+	max-width: 150px;
+	width: 100%;
+	margin-top: 10px;
+	color: white;
+	background-color: #DFA91E;
+	border-color: #DFA91E;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.contact-info .btn-light:hover {
+	background-color: #27405d;
+	border-color: #27405d;
 }
 /***********************************************************************/
 
@@ -929,6 +961,10 @@ footer .list-unstyled a {
 
 	.form-control {
 		margin: 0 0 20px 0 !important;
+	}
+
+	.contact-box p {
+		padding-left: 25px;
 	}
 }
 
