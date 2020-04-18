@@ -522,6 +522,7 @@ a.nav-link:hover {
 .video-box p {
 	color: #27405D;
 	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .video-box a {
